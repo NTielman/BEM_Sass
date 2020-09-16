@@ -1,0 +1,21 @@
+$standardPadding: 20px;
+$altbckgColor: #97d279;
+$emphasisColor: #c0eea9;
+$blackColor: black;
+$textColor: #090b08;
+$bckgColor: #ecffe9;
+
+@mixin textblock {
+    
+    &__text {
+        max-width: 700px;
+        text-align: center;
+        padding: $standardPadding;
+    
+        & p {
+            text-align: justify;
+            padding: $standardPadding;
+            line-height: 1.4em;
+          }
+    }
+}
